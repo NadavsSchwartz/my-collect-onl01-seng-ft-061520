@@ -1,7 +1,9 @@
 def my_collect(collection)
-while collection.length >1 do
-  yield collection
+  i = 0
+  while i < collection.length
+    yield(array[i])
+    i += 1
+  end
 end
 
-end
 
